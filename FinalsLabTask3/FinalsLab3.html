@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinalsLab3</title>
+    <style>
+        .wrapper {
+            padding: 5px;
+            height: 100px;
+            width: 450px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <table>
+            <tr>
+                <td>First Number: <input type="text" size="10" id="n1"></td>
+            </tr>
+            <tr>
+                <td>Second Number: <input type="text" size="10" id="n2"></td>
+            </tr>
+            <tr>
+                <td>RESULT: <input type="text" size="10" id="result" disabled></td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="addNumbers()">Addition</button>
+                    <button onclick="lessNumbers()">Subtraction</button>
+                    <button onclick="timesNumbers()">Multiply</button>
+                    <button onclick="divideNumbers()">Divide</button>
+                    <button onclick="resetNumbers()">Clear</button>
+                    <button onclick="about()">About</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
